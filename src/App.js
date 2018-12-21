@@ -1,28 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './Header';
+import Selections from './Selections/Selections';
+import Prep from './Selections/Prep'
+import Meal from './Meal'
+import Footer from './Footer';
+import { Switch, Route} from 'react-router-dom';
 
-class App extends Component {
-  render() {
+
+
+const App = () => {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+        <div id="appDiv">
+            <Header />
+            <Switch>
+                <Route exact path='/' component={Selections}/>
+                <Route path='/prep'   component={Prep}/>
+                <Route path='/meal'   component={Meal}/>
+            </Switch>
+            <Footer />
+        </div>
+    )
 }
 
 export default App;
+
+
