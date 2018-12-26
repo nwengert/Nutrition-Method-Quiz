@@ -38,7 +38,7 @@ export default class Selections extends Component {
                 <div className="arrowButtonsDiv">
                     <button className='nextButton'
                         onClick={()=> this.props.history.push({
-                            pathname: '/prep',
+                            pathname: '/result',
                             state: this.state
                         })}>Next&rarr;</button>
                 </div>

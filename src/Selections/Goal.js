@@ -6,6 +6,7 @@ export default class Goal extends Component {
         return (
             <div id="goalDiv">
                 <h2>What is your primary goal?</h2>
+
                 <input checked={this.props.goal === "improve"}
                     onChange={this.props.handleChange}
                     type="radio" 
@@ -36,17 +37,16 @@ export default class Goal extends Component {
                     <label className="goal_label_item" id="goal1" 
                     htmlFor="goal_radio3">More energy</label>
 
-                <input checked={this.props.goal === "Brain health"}
+                <input checked={this.props.goal === "brain health"}
                     onChange={this.props.handleChange}
                     type="radio" 
                     className="goal_radio_item" 
                     name="goal" 
-                    value="Brain health" 
+                    value="brain health" 
                     id="goal_radio4"/>
                     <label className="goal_label_item" id="goal2" 
                     htmlFor="goal_radio4">Brain health</label>
                     
-
             </div>
         )
     }
