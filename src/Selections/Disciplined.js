@@ -4,7 +4,7 @@ export default class Disciplined extends Component {
     render() {
         return (
             <div id="disciplinedDiv">
-                <h4>Do you do well with extreme discipline?</h4>
+                <h2>Do you do well with extreme discipline?</h2>
                 <input checked={this.props.disciplined === "Yes"}
                     onChange={this.props.handleChange}
                     type="radio" 

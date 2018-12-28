@@ -8,6 +8,7 @@ export default class Gender extends Component {
         // console.log(this.props)
         return (
             <div id="genderDiv">
+                <h2>Gender</h2>
                 <input checked={this.props.gender === "female"}
                     onChange={this.props.handleChange}
                     type="radio"

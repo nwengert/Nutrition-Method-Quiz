@@ -12,7 +12,7 @@ export default class Result extends Component {
         // const { history } = this.props;
         const { result } = this.state;
         const selections = this.props.location.state
-        let youTubeLink = "";
+        // let youTubeLink = "";
         const Results = [
         {
             name: "",

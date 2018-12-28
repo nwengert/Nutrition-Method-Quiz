@@ -4,7 +4,7 @@ export default class Age extends Component {
     render() {
         return (
             <div id="ageDiv">
-                <h4>How old are you?</h4>
+                <h2>How old are you?</h2>
                 <input checked={this.props.age === "18-30"}
                     onChange={this.props.handleChange}
                     type="radio" 

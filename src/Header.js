@@ -1,6 +1,4 @@
 import React from 'react';
-import BodBuds from './images/bodBudsNoB.png';
-import veggieWelcome from './images/veggieWelcome.png';
 
 function Header() {
     return (

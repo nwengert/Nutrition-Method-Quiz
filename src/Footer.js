@@ -3,7 +3,6 @@ import facebook from "./images/facebook.png";
 import instagram from "./images/instagram.png";
 import pinterest from "./images/pinterest.png";
 import podcast from "./images/podcast.png"
-import snapchat from "./images/snapchat.png";
 import youtube from "./images/youtube.png";
 
 function Footer() {
@@ -19,9 +18,6 @@ function Footer() {
                 <a href="https://www.pinterest.com/bodbuds/" alt="pinterest link" 
                         target="_blank" rel="noopener noreferrer">
                     <img src={pinterest} alt="pinterest"  className="socialImg"/></a>
-                <a href="https://www.snapchat.com/add/k-dizzle4rizzle" alt="snapchat link" 
-                        target="_blank" rel="noopener noreferrer">
-                    <img src={snapchat} alt="snapchat"  className="socialImg"/></a>
                 <a href="https://www.youtube.com/bodbuds" alt="youtube link" 
                         target="_blank" rel="noopener noreferrer">
                     <img src={youtube}  alt="youtube" className="socialImg"/></a>

@@ -6,7 +6,7 @@
     align-items: center;
     background: linear-gradient(to right, rgb(40, 80, 125),  rgb(54, 95, 141));
     color: whitesmoke;
-    font-size: 33px;
+    /* font-size: 33px; */
 }
 /* this came from http://jsfiddle.net/nuwa0me0/ */
 .age_radio_item{
