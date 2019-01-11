@@ -8,7 +8,7 @@ export default class Result extends Component {
             result: null,
         }
     }
-    render() {
+    render(props) {
         // const { history } = this.props;
         const { result } = this.state;
         const selections = this.props.location.state
@@ -67,6 +67,7 @@ export default class Result extends Component {
             <div id="resultBodyDiv">
 
                 <h1>yippie kayay mf</h1>
+                <h1>{this.state}</h1>
                 <div className="arrowButtonsDiv">
                     <button className='restartButton'
                         onClick={() => this.props.history.push('/')}>Restart</button>
